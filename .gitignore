@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Local environment / secrets
+.env
+.env.*
+
+# Confidential company data
+data/raw/
+data/confidential/
+data/company/
+*.confidential.*
+*.private.*
+
+# Local Excel working files
+*.xlsx
+*.xls
+*.xlsm
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated outputs
+outputs/
+reports/generated/
+
+# Temporary files
+*.tmp
+*.bak
+~$*
